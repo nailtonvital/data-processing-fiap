@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cap. 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mb-5 pt-3">
+                <h1>Cap 3 - Dados mais inteligentes</h1>
+        
+                <h5 class="pt-3">HTML Puro: </h5>
+                <div style="height: 30rem;" class="overflow-y-scroll">
+
+                    <code>
+        &lt;html&gt;&lt;head&gt;&lt;title&gt;Gulliver Traveller - Roteiros&lt;/title&gt;&lt;/head&gt;&lt;body&gt;&lt;b&gt;-&gt;1 - Roteiros para *S&atilde;o Paulo*&lt;/b&gt;&lt;br&gt;A Terra da Garoa!&lt;br&gt;Fundada em 25 de janeiro de 1554, a cidade tem hoje cerca de 12 milh&otilde;es de habitantes e &eacute; considerada o centro financeiro do Brasil. Aqui v&atilde;o tr&ecirc;s dicas de roteiros obrigat&oacute;rios para aqueles que passam pela capital paulista&lt;br&gt;#Roteiro A | Regi&atilde;o: Avenida Paulista&lt;br&gt;MASP; Parque Trianon; Rua Augusta&lt;br&gt;#Roteiro B | Regi&atilde;o: Centro&lt;br&gt;Catedral da S&eacute;; P&aacute;tio do Col&eacute;gio; Rua Augusta&lt;br&gt;#Roteiro C | Regi&atilde;o: Vila Madalena&lt;br&gt;Beco do Batman; Feirinha da Benedito Calixto; Livraria da Vila&lt;br&gt; &lt;b&gt;-&gt;2 - Roteiros para *Las Vegas*&lt;/b&gt;&lt;br&gt;Viva Las Vegas!&lt;br&gt;       A cidade mais populosa e mais densamente povoada do estado de Nevada, Las Vegas foi fundada em 1905. &Eacute; considerada oficialmente como uma cidade desde 1911 e conta com mais de meio milh&atilde;o de habitantes. Venha conhecer a capital dos jogos de azar!&lt;br&gt;#Roteiro A | Regi&atilde;o: Las Vegas Boulevard South&lt;br&gt;Fonte do Bellagio; Principais Cassinos; Madame Tussauds&lt;br&gt;#Roteiro B | Regi&atilde;o: Downtown&lt;br&gt;; Fremont; Las Vegas Art Museum; Museu Nacional do Crime Organizado; &lt;br&gt;#Roteiro C | Regi&atilde;o: Las Vegas Boulevard North&lt;br&gt;Outlet Premium North; Stratosphere; Apple Fashion Show&lt;br&gt;&lt;b&gt;-&gt;3 - Roteiros para *Moscou*&lt;/b&gt;&lt;br&gt;Privet!&lt;br&gt;A capital russa fica situada &agrave;s margens do Rio Moscou e, apesar de ser a cidade mais cosmopolita da R&uacute;ssia, grande parte de sua hist&oacute;ria est&aacute; preservada&lt;br&gt;#Roteiro A | Regi&atilde;o: Pra&ccedil;a Vermelha&lt;br&gt;Museu Hist&oacute;rico do Estado; Catedral de S&atilde;o Bas&iacute;lico; Mausol&eacute;u de L&ecirc;nin&lt;br&gt;#Roteiro B | Regi&atilde;o: Centro&lt;br&gt;Teatro Bolshoi; Monumento a Karl Marx; Rio Moscou&lt;br&gt;#Roteiro C | Regi&atilde;o: Obras pela cidade&lt;br&gt;Metr&ocirc; de Moscou; As Sete Irm&atilde;s; Moscow Leningradsky Railway Station  &lt;br&gt;<br/>&lt;/body&gt;<br/>&lt;/html&gt;
+    </code>
+                </div>
+                <h5 class="pt-3">Informações processadas</h5>
+                <div class="accordion mt-3" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Nome das cidades avaliadas
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" id="item-1">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                O conteúdo do roteiro A de cada cidade avaliada
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" id="item-2">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Quantos locais são citados no roteiro A de cada cidade:
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" id="item-3">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                O nome dos pontos turísticos localizados no bairro Centro da cidade de São Paulo:
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" id="item-4">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                O nome dos pontos turísticos localizados no bairro Downtown da cidade de Los Angeles:
+                            </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body" id="item-5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+        <script src="text.js"></script>
+</body>
+
+</html>
